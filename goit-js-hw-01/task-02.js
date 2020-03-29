@@ -1,5 +1,4 @@
 // task-02
-
 "use strict";
 
 const total = 100;

@@ -1,6 +1,6 @@
 // task-05
-
 "use strict";
+
 //Countries
 const china = 'Китай';
 const chili = 'Чили';
