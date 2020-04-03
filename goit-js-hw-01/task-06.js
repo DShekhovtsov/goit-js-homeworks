@@ -1,6 +1,6 @@
 // task-06
 
-"use strict";
+'use strict';
 let message;
 let total = 0;
 let input;
