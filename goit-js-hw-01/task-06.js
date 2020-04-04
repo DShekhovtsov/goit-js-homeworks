@@ -1,17 +1,21 @@
 // task-06
 
 'use strict';
-let message;
-let total = 0;
 let input;
-while (input !== null) {
+let total = 0;
+
+while (true) {
   input = prompt('Введите число');
-  total += Number(input);
-  message = `Общая сумма чисел равна ${total}`;
-  if (Number.isNaN(total) === true) {
-    message = 'Было введено не число, попробуйте еще раз';
-    break;
+
+  if (input === null) {
+    alert(`Общая сумма чисел равна ${total}`)
+  };
+
+  if (Number(input) >= 0) {
+    total += Number(input);
+  }
+  input = Number(input);
+  if (Number.isNaN(input)) {
+    alert('Было введено не число, попробуйте еще раз');
   }
 }
-
-alert(message);

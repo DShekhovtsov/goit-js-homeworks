@@ -1,28 +1,20 @@
-// task-02
-"use strict";
+// task-05
+'use strict';
 
-// task-02
-"use strict";
+const checkForSpam = function (message) {
+  const firstWord = 'spam';
+  const secondWord = 'sale';
+  const smallLetters = message.toLowerCase();
+  return smallLetters.includes(firstWord) || (smallLetters.includes(secondWord));
+};
 
-// const formatString = function (string) {
-//   const symbols = string.split('');
-//   let greatestString = symbols.length;
-//   while (greatestString > 40) {
-//     greatestString = symbols.splice(40, 200);
-//     console.log(symbols.join(''));
-//   }
-// }
+/*
+ * Вызовы функции для проверки работоспособности твоей реализации.
+ */
+console.log(checkForSpam('Latest technology news')); // false
 
+console.log(checkForSpam('JavaScript weekly newsletter')); // false
 
+console.log(checkForSpam('Get best sale offers now!')); // true
 
-
-// const formatString = function (string) {
-//   const symbols = string.split('');
-//   let greatestString = symbols.length;
-//   for (let i = 0; i > 40; i += 1) {
-//     if (greatestString > 40) {
-//       greatestString = console.log(symbols.splice(40, 200, '...'))
-//     }
-//   }
-//   return symbols.join('');
-// };
+console.log(checkForSpam('[SPAM] How to earn fast money?')); // true
