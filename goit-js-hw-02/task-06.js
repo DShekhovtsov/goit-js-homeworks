@@ -1,4 +1,4 @@
-// // task-05
+// task-05
 'use strict';
 
 let input;
