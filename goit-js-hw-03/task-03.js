@@ -13,7 +13,6 @@ const findBestEmployee = function (employees) {
     if (value > max) {
       max = value;
       name = key;
-      console.log()
     }
   }
   return name;
