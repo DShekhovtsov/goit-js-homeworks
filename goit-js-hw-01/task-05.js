@@ -16,7 +16,6 @@ const indiaDeliveryPrice = 80;
 const jamaicaDeliveryPrice = 120;
 
 let input = prompt("Укажите страну доставки товара");
-input.toLowerCase();
 const userChoise = input.toLowerCase();
 let message;
 

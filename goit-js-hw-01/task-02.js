@@ -7,7 +7,7 @@ let message;
 
 if (ordered <= total) {
   message = "Заказ оформлен, с вами свяжется менеджер";
-} else if (ordered > total) {
+} else {
   message = "На складе недостаточно товаров!";
 }
 

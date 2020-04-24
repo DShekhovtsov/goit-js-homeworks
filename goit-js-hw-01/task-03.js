@@ -9,7 +9,7 @@ if (input === null) {
   message = 'Отменено пользователем!';
 } else if (input === ADMIN_PASSWORD) {
   message = 'Добро пожаловать!';
-} else if (input !== ADMIN_PASSWORD) {
+} else {
   message = 'Доступ запрещен, неверный пароль!';
 }
 alert(message);
