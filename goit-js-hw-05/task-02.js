@@ -12,7 +12,6 @@ class User {
     this.followers = followers;
   }
   getInfo() {
-    Object.call(User)
     console.log(`User ${this.name} is ${this.age} years old and has ${this.followers} followers`);
   }
 }
