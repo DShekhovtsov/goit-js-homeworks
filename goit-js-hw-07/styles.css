@@ -36,3 +36,20 @@ img {
 #gallery {
   display: flex;
 }
+
+#value {
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(103, 136, 136);
+  padding: 0 30px;
+}
+
+#decrement,
+#increment {
+  font-size: 16px;
+  font-weight: 900;
+  color: navy;
+  height: 50px;
+  width: 100px;
+  margin-bottom: 30px;
+}
