@@ -47,10 +47,3 @@ const fullImageLightboxButtonClose = document.querySelector('[data-action="close
 fullImageLightboxButtonClose.addEventListener('click', () => {
   closeFullImageLightbox();
 });
-
-// ESC
-galleryList.addEventListener('keyup', event => {
-  if (event.keyCode === 27) {
-    closeFullImageLightbox;
-  }
-});
