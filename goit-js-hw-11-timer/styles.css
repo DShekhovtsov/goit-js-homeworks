@@ -1,0 +1,21 @@
+.timer {
+  margin: 300px auto;
+  display: flex;
+  justify-content: space-between;
+  max-width: 600px;
+}
+
+.field {
+  width: 200px;
+  height: 190px;
+  background: rgba(48, 47, 51, 0.568);
+  border: 1px solid white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 20px 20px 20px 20px;
+  color: bisque;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
